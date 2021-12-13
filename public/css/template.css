@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row{
+    margin-left:120px;
+}
+
+body{
+    background: #f5f6fa;
+}
+
+.wrapper .sidebar{
+    background: #9CC094; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+#box-satu {
+    width: 230px;
+    height: 120px;
+    background: #437245;
+}
+
+#box-dua {
+    width: 300px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    background: #9CC094;
+    border-radius: 10px;
+    padding : 10px 50px;
+    margin-top : 4rem;
+    margin-left : 30rem;
+}
+
+#box-tiga {
+    width: 805px;
+    height: 80px;
+    background: transparent;
+    border: 2px solid black;
+    font-size: 14px;
+    margin-top : 2rem;
+    margin-left : 15rem;
+    padding : 14px 30px; 
+}
+
+#box-empat {
+    width: 300px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    color : white;
+    background: #032D23;
+    border-radius: 10px;
+    padding : 10px 60px;
+    margin: 4rem 2.5rem;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper .sidebar .profile{
+    margin-bottom: 25px;
+}
+
+.wrapper .sidebar .profile img{
+    width: 60px;
+    height: 60px;
+    margin-left: 80px; 
+    margin-top : 10px;
+
+}
+
+.wrapper .sidebar .profile h3{
+    color: white;
+    font-size: 16px;
+    margin-left: 70px; 
+}
+.wrapper .sidebar .profile p{
+    color: white;
+    font-size: 14px;
+    margin-left: 83px; 
+}
+
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    border-bottom: no border;
+    color: black;
+    font-size: 16px;
+    position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+    color: black;
+    width: 30px;
+    display: inline-block;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+    color: white;
+
+    background:#B4C6A6;
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+    color: white;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+    display: block;
+}
+
+.artikel {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top : 12px; 
+}
+
+.table {
+    border-collapse: collapse;
+    font-family: "Hannari", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.table ,
+th, td {
+    vertical-align: top;
+    padding: 20px 29px;
+    margin-left : 20px;
+    margin-top : 15px;
+}
+
+.btn {
+    background:  #032D23;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin-left :31rem;
+    margin-top : 5px;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    background:  #032D23;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 57rem;
+    margin-top : 2rem;
+   
+}
+
+.button-update {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    background:  green;
+    border: none;
+    color: white;
+    padding: 8px 35px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.button-delete {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    background:  red;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#card {
+    background: transparent;
+    height: 550px;
+    margin: 3rem 18rem;
+    width: 450px;
+    border: transparent;
+    padding: 12px 40px;
+}
+
+#card-dua {
+    background: #9CC094;
+    box-shadow: 1px 2px 4px #9CC094;
+    height: 550px;
+    margin: 5rem 24rem;
+    width: 450px;
+    border: 1px solid #032D23;
+    padding: 12px 40px;
+    border-radius : 10px;
+}
+
+
+.inputan {
+    outline: none;
+    background: #fbfbfb;
+    padding: 6px 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid black;
+    height: 35px;
+    width: 600px;
+    margin-bottom: 1rem;
+    margin-top: 5px;
+}
+
+.labelan {
+    font-family: "Nunito", sans-serif;
+    font-size: 13pt;
+    color: black;
+    margin-top: 30px;
+    margin-left : 5px;
+    font-weight: 400;
+}
+
+.alert{
+  background: #9CC094;
+}
+
+
+
